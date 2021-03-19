@@ -1,0 +1,41 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        background: url(resources/home-image.png) no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+        height: 90vh;
+        font-family: 'Pacifico', cursive;
+    }
+
+h1
+    {
+        color:wheat;
+        font-size: 70px;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+ul
+    {
+        
+        font-size: 25px;
+        color: blue;
+        padding-left: 60px;
+    }
+
+a
+    {
+        text-decoration: none;
+        color: blue;
+    }
+
+a:hover
+    {
+        line-height: 70px;
+        font-size: 135%;
+        color: darkblue;
+    }
